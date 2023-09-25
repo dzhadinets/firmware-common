@@ -1,0 +1,45 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F302xC",
+    "f_cpu": "72000000L",
+    "mcu": "stm32f302cbt6",
+    "product_line": "STM32F302xC"
+  },
+  "debug": {
+    "default_tools": [
+      "stlink"
+    ],
+    "jlink_device": "STM32F302CB",
+    "openocd_extra_args": [
+      "-c",
+      "reset_config none"
+    ],
+    "openocd_target": "stm32f3x",
+    "svd_path": "STM32F302x.svd"
+  },
+  "frameworks": [
+    "mbed",
+    "cmsis",
+    "libopencm3",
+    "stm32cube",
+    "zephyr"
+  ],
+  "name": "GreenPill F302CB",
+  "upload": {
+    "maximum_ram_size": 40960,
+    "maximum_size": 262144,
+    "protocol": "stlink",
+    "protocols": [
+      "jlink",
+      "cmsis-dap",
+      "stlink",
+      "blackmagic",
+      "mbed",
+      "dfu"
+    ]
+  },
+  "url": "http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32f3-series/stm32f301/stm32f302cb.html",
+  "vendor": "Generic"
+}

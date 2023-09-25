@@ -1,0 +1,8 @@
+{
+  "name": "board_nucleo64_f103rb",
+  "platforms": ["ststm32"],
+  "build":
+  {
+    "libArchive": false
+  }
+}

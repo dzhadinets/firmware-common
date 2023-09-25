@@ -1,0 +1,10 @@
+{
+  "name": "board_nucleo_mx",
+  "platforms": ["ststm32"],
+  "build":
+  {
+    "libArchive": false,
+    "includeDir": "Inc",
+    "srcDir": "Src"
+  }
+}

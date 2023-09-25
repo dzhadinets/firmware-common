@@ -1,0 +1,9 @@
+{
+  "name": "sfc_psp_esp32-s3-wroom-1",
+  "platforms": ["espressif32"],
+  "build":
+  {
+    "libArchive": false
+  }
+
+}

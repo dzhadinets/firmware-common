@@ -1,0 +1,6 @@
+{
+  "name": "sfc_hal",
+  "version": "1.0.0",
+  "platforms": ["ststm32", "espressif32", "espressif8266"],
+  "frameworks": ["espidf", "stm32cube"]
+}

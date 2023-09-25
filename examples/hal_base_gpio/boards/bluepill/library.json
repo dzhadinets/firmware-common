@@ -1,0 +1,8 @@
+{
+  "name": "board_bluepill",
+  "platforms": ["ststm32"],
+  "build":
+  {
+    "libArchive": false
+  }
+}

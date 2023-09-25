@@ -1,0 +1,8 @@
+{
+  "name": "sfc_psp_stm32f10x",
+  "platforms": ["ststm32"],
+  "build":
+  {
+    "libArchive": false
+  }
+}
